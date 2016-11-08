@@ -14,5 +14,10 @@ describe("测试 proxy.js",function(){
             assert.equal(proxy.toString(),"https://8.8.8.8:123");
             done();
         });
+        it("返回的总应该是小写的schema",function (done) {
+            const proxy=new Proxy("HTTPS","8.8.8.8","123");
+            assert.equal(proxy.toString(),"https://8.8.8.8:123");
+            done();
+        });
     })
 });
