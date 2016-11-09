@@ -1,5 +1,5 @@
 const assert=require('assert');
-const Crawler=require('../../lib/xici/crawler');
+const Crawler=require('../../../lib/hunter/xici/crawler');
 
 
 describe('测试西刺代理网站的 crawler.js',function(){

@@ -1,6 +1,6 @@
 const assert = require('assert');
 const fetch = require('node-fetch');
-const parser = require('../../lib/xici/parser.js');
+const parser = require('../../../lib/hunter/xici/parser');
 
 
 describe('测试西刺代理网站的 parser.js', function () {
