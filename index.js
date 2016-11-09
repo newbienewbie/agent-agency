@@ -1,9 +1,11 @@
 const agency=require('./lib/index');
 
-const INCREASE_INTERVAL=60*1000;
-setInterval(agency.hunt,INCREASE_INTERVAL);
+//定时抓取
+setInterval(agency.hunt('xici'),60*60*1000);
+setInterval(agency.hunt('cz88'),1*60*1000);
 
 // 定时清理
-const CLEAN_INTERVAL=30*1000;
-setInterval(agency.clean,CLEAN_INTERVAL);
+agency.clean();
+setInterval(agency.clean,1*60*1000);
+
 
