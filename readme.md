@@ -16,4 +16,4 @@
 
 - [x] 西刺代理 : http://www.xicidaili.com/
 - [x] 纯真代理 : http://www.cz88.net/proxy/index.shtml
-- [ ] 开心代理 : http://www.kxdaili.com/dailiip.html
+- [x] 开心代理 : http://www.kxdaili.com/dailiip.html
